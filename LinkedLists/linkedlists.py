@@ -27,7 +27,6 @@ class LinkedList:
     
     def delete(self, node):
         temp = self.head
-
         # If head node itself holds the key to be deleted
         if (temp is not None):
             if (temp.data == node.data):
